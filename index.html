@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://unpkg.com/vue@3"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build your own Avatar</title>
+  <link rel="stylesheet" href="./css/avatar_page.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+<script type="text/javascript" src="./javascript/intro.js"></script>
+ 
+
+
+  <header>
+    <h1>Testing page for Creating your own avatar</h1>
+  </header>
+
+  <div class="outer_container_holder" > 
+ </div>
+
+<div class="outer_outer_container"> <!--green container-->
+  
+  <div class="character-window">
+    <img src="./pictures/Placeholder.png" alt="placeholder" >
+      </div>
+      <!--<ul>
+        <li><a href="Backgrounds" class="active">Backgrounds</a></li>
+        <li><a href="Eyes">Eyes</a></li>
+        <li><a href="Shirt">shirt</a></li>
+        <li><a href="Shoes">Shoes</a></li>
+      </ul>-->
+
+  <div class="outer_container" id="background" style="display: none;"> <!--Black container-->
+
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/blue_1.jpg" alt=""> <!--Image reference: https://ibcces.org/blue-gradient/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/blue_gradient.jpg" alt=""> <!--Image Reference: https://pixy.org/64956/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/orange-gradient-color_70x70.jpg" alt=""> <!--Image reference: https://pixy.org/6188522/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/gradient-green-color-colorful_70x70.jpg" alt=""> <!--Image reference: https://pixy.org/6188423/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/gradient-color-colorful-black_70x70.jpg" alt=""> <!--Image reference: https://pixy.org/6188807/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/gradient-red-and-black_70x70.jpg" alt=""> <!--Image reference: https://pixy.org/6188369/-->
+    </div>
+    <div class="item" style="background-color: white;">
+      <img src="./pictures/France-flag-on-a-map-on-a-white-background_70x70.png" alt=""> <!--Image reference: https://pixy.org/4528908/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/germany-black-red-yellow-flag_70x70.png" alt=""> <!--Image reference: https://pixy.org/6163442/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/japan-map-on-flag-with-red-balloon_70x70.jpg" alt=""> <!--Image reference: https://pixy.org/6110975/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt=""> <!--Image reference: https://pixy.org/6188369/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>  
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+  </div> <!--end of black container-->
+
+
+  <div class="outer_container" id="facials" > <!--Black container-->
+    <div class="item">
+      <img src="./pictures/abstract-g3f4e0ecf3_640_70x70.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/eclipse-gb80da8b1b_640_70x70.jpg" alt=""> <!--Image reference: https://ibcces.org/blue-gradient/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/space-g9500736ac_640_70x70.jpg" alt=""> <!--Image Reference: https://pixy.org/64956/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/wall-gb727960d4_640_70x70.jpg" alt=""> <!--Image reference: https://pixy.org/6188522/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/gradient-green-color-colorful_70x70.jpg" alt=""> <!--Image reference: https://pixy.org/6188423/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/gradient-color-colorful-black_70x70.jpg" alt=""> <!--Image reference: https://pixy.org/6188807/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/gradient-red-and-black_70x70.jpg" alt=""> <!--Image reference: https://pixy.org/6188369/-->
+    </div>
+    <div class="item" style="background-color: white;">
+      <img src="./pictures/France-flag-on-a-map-on-a-white-background_70x70.png" alt=""> <!--Image reference: https://pixy.org/4528908/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/germany-black-red-yellow-flag_70x70.png" alt=""> <!--Image reference: https://pixy.org/6163442/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/japan-map-on-flag-with-red-balloon_70x70.jpg" alt=""> <!--Image reference: https://pixy.org/6110975/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt=""> <!--Image reference: https://pixy.org/6188369/-->
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>  
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+    <div class="item">
+      <img src="./pictures/German_flag_5_70x70_sized_down.jpg" alt="">
+    </div>
+  </div> <!--end of black container-->
+
+
+
+</div>  <!--end of green container-->
+
+</body>
+<div class="footer">
+  <p>Copyright</p>
+</div>
+</html>
+
+
+
